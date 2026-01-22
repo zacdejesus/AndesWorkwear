@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 flex items-center justify-center px-4 relative">
       <img
-        src="/logoAndes.jpg"
+        src="/logoAndessinfondo.png"
         alt="Andes Logo"
         className="absolute top-8 left-8 w-25 h-25 object-contain"
       />
