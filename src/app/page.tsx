@@ -1,32 +1,30 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "Under Construction | Andes Workwear",
+  description: "This page is currently under construction.",
 };
 
 export default function Home() {
   return (
-    <>
-      <ScrollUp />
-      <Hero />
-      <Features />
-      <Video />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Pricing />
-      <Blog />
-      <Contact />
-    </>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 flex items-center justify-center px-4 relative">
+      <img
+        src="/logoAndes.jpg"
+        alt="Andes Logo"
+        className="absolute top-8 left-8 w-25 h-25 object-contain"
+      />
+      <div className="text-center text-white max-w-2xl">
+        <div className="mb-8">
+          <img
+            src="/Imagen1.jpeg"
+            alt="Under Construction"
+            className="mx-auto w-100 h-100 rounded-full border-1 border-black shadow-lg object-cover"
+          />
+        </div>
+        <h1 className="text-6xl font-extrabold mb-6 animate-pulse">🚧 Under Construction </h1>
+        <p className="text-2xl mb-4">We're building something amazing for you.</p>
+        <p className="text-lg mb-8">Stay tuned for updates!</p>
+      </div>
+    </div>
   );
 }
