@@ -1,32 +1,21 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Video from "@/components/Video";
 import { Metadata } from "next";
+import AboutSection from "@/components/Landing/AboutSection";
+import OurValueSection from "@/components/Landing/OurValueSection";
+import WhyChooseUsSection from "@/components/Landing/WhyChooseUsSection";
+import IndustriesSection from "@/components/Landing/IndustriesSection";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "Andes Workwear - Premium Workwear & Uniforms",
+  description: "High-quality workwear and uniforms producer with 9 years of international experience.",
 };
 
 export default function Home() {
   return (
     <>
-      <ScrollUp />
-      <Hero />
-      <Features />
-      <Video />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Pricing />
-      <Blog />
-      <Contact />
+      <AboutSection />
+      <OurValueSection />
+      <WhyChooseUsSection />
+      <IndustriesSection />
     </>
   );
 }
