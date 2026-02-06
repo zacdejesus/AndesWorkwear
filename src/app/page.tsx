@@ -11,19 +11,19 @@ export default function Home() {
       <img
         src="/logoAndessinfondo.png"
         alt="Andes Logo"
-        className="absolute top-8 left-8 w-25 h-25 object-contain"
+        className="absolute top-4 left-4 sm:top-8 sm:left-8 w-16 h-16 sm:w-24 sm:h-24 object-contain"
       />
-      <div className="text-center text-white max-w-2xl">
-        <div className="mb-8">
+      <div className="text-center text-white max-w-2xl w-full">
+        <div className="mb-6 sm:mb-8">
           <img
             src="/Imagen1.jpeg"
             alt="Under Construction"
-            className="mx-auto w-100 h-100 rounded-full border-1 border-black shadow-lg object-cover"
+            className="mx-auto w-60 h-60 sm:w-80 sm:h-80 rounded-full border border-black shadow-lg object-cover"
           />
         </div>
-        <h1 className="text-6xl font-extrabold mb-6 animate-pulse">🚧 Under Construction </h1>
-        <p className="text-2xl mb-4">We're building something amazing for you.</p>
-        <p className="text-lg mb-8">Stay tuned for updates!</p>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 sm:mb-6 animate-pulse">🚧 Under Construction</h1>
+        <p className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4">We're building something amazing for you.</p>
+        <p className="text-base sm:text-lg mb-6 sm:mb-8">Stay tuned for updates!</p>
       </div>
     </div>
   );
