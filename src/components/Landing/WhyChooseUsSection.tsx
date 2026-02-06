@@ -1,52 +1,38 @@
-import SectionTitle from "./SectionTitle";
-import FeatureCard from "./FeatureCard";
-
 const WhyChooseUsSection = () => {
   const features = [
     {
-      icon: "👥",
-      title: "Technical Compliance & Quality",
-      description:
-        "We comply with strict technical production specifications, ensuring durable, high-quality workwear that meets industry standards.",
+      icon: "✓",
+      title: "Technical Compliance",
+      description: "High-quality standards and durable workwear that meets industry specifications.",
     },
     {
-      icon: "🎧",
-      title: "Client-Focused Solutions",
-      description:
-        "We listen, understand, and deliver reliable solutions tailored to our clients' real operational needs.",
+      icon: "✓",
+      title: "Client-Focused",
+      description: "Solutions tailored to your operational needs and challenges.",
     },
     {
-      icon: "💰",
-      title: "Fair and Transparent Pricing",
-      description:
-        "By controlling our production and supply chain, we guarantee fair, transparent pricing without compromising quality.",
+      icon: "✓",
+      title: "Fair Pricing",
+      description: "Transparent, competitive pricing with no hidden costs.",
     },
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gray-100">
+    <section className="py-16 md:py-24" style={{ backgroundColor: '#F2F2F2' }}>
       <div className="container mx-auto px-4">
-        {/* Header with Logo and Title */}
-        <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
-          <div className="flex-shrink-0">
-            <div className="text-center">
-              <div className="text-5xl font-bold text-yellow-700 mb-2">▲</div>
-              <h3 className="text-2xl font-bold text-gray-900">ANDES</h3>
-              <p className="text-gray-500 tracking-widest">WORKWEAR</p>
-            </div>
-          </div>
-          <h2 className="text-5xl md:text-6xl font-bold text-white">WHY CHOOSE US?</h2>
-        </div>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{ color: '#2E2E2E' }}>
+          Why Choose <span style={{ color: '#B89A54' }}>Andes</span>
+        </h2>
 
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <FeatureCard key={index} icon={feature.icon} title={feature.title} description={feature.description} />
+            <div key={index} className="bg-white p-8 rounded-lg shadow">
+              <div className="text-3xl font-bold mb-4" style={{ color: '#B89A54' }}>{feature.icon}</div>
+              <h3 className="text-xl font-bold mb-3" style={{ color: '#2E2E2E' }}>{feature.title}</h3>
+              <p style={{ color: '#6E6E6E' }}>{feature.description}</p>
+            </div>
           ))}
         </div>
-
-        {/* Yellow accent bar */}
-        <div className="mt-16 h-16 bg-yellow-400 rounded-full"></div>
       </div>
     </section>
   );
