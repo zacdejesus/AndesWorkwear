@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chaleco",
+      "description": "Safety vest for workwear",
+      "mainImage": "/images/products/chaleco/imagen.jpg",
+      "gallery": [
+        "/images/products/chaleco/imagen.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Polo",
+      "description": "Comfortable work polo shirt",
+      "mainImage": "/images/products/polo/imagen1.jpg",
+      "gallery": [
+        "/images/products/polo/imagen1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cuerpo Medio Overol",
+      "description": "Work overall for maximum comfort",
+      "mainImage": "/images/products/cuerpo-medio-overol/imagen1.png",
+      "gallery": [
+        "/images/products/cuerpo-medio-overol/imagen1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chaqueta",
+      "description": "Comfortable work jacket",
+      "mainImage": "/images/products/chaqueta/imagen1.jpg",
+      "gallery": [
+        "/images/products/chaqueta/imagen1.jpg"
+      ]
+    }
+  ]
+}

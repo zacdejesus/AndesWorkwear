@@ -10,15 +10,14 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Products",
-    path: "/contact",
+    path: "/products",
     newTab: false,
   },
   {
     id: 3,
-    title: "About Us",
-    path: "/about",
+    title: "Contact Us",
+    path: "/contact",
     newTab: false,
   },
 ];
-
 export default menuData;
