@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -52,11 +51,15 @@ const Header = () => {
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
+                className={`header-logo block ${
+                  sticky ? "py-3 lg:py-2" : "py-4"
+                }`}
               >
-                Andes
+                <img
+                  src="/images/hero/logoAndes.png"
+                  alt="Andes Workwear Logo"
+                  className="h-10 sm:h-12 w-auto object-contain"
+                />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -146,9 +149,6 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <div>
-                  <ThemeToggler />
-                </div>
               </div>
             </div>
           </div>
