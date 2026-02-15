@@ -3,37 +3,61 @@
     {
       "id": 1,
       "name": "Chaleco",
-      "description": "Safety vest for workwear",
+      "description": "High-visibility safety vest engineered for demanding work environments. Built with durable, breathable fabric to keep workers safe and comfortable throughout long shifts.",
       "mainImage": "/images/products/chaleco/imagen.jpg",
       "gallery": [
         "/images/products/chaleco/imagen.jpg"
+      ],
+      "features": [
+        "High-visibility reflective strips",
+        "Breathable and lightweight fabric",
+        "Multiple utility pockets",
+        "Available in custom colors and branding"
       ]
     },
     {
       "id": 2,
       "name": "Polo",
-      "description": "Comfortable work polo shirt",
+      "description": "Professional work polo shirt combining comfort with a polished look. Ideal for teams that need a clean, uniform appearance without sacrificing mobility.",
       "mainImage": "/images/products/polo/imagen1.jpg",
       "gallery": [
         "/images/products/polo/imagen1.jpg"
+      ],
+      "features": [
+        "Soft, moisture-wicking fabric",
+        "Reinforced stitching for durability",
+        "Custom embroidery and logo placement",
+        "Available in multiple sizes and colors"
       ]
     },
     {
       "id": 3,
       "name": "Cuerpo Medio Overol",
-      "description": "Work overall for maximum comfort",
+      "description": "Heavy-duty half-body overall designed for maximum protection and comfort. Perfect for industrial environments where workers need full coverage and freedom of movement.",
       "mainImage": "/images/products/cuerpo-medio-overol/imagen1.png",
       "gallery": [
         "/images/products/cuerpo-medio-overol/imagen1.png"
+      ],
+      "features": [
+        "Reinforced knee and chest panels",
+        "Adjustable waist and shoulder straps",
+        "Industrial-grade fabric blend",
+        "Meets workplace safety standards"
       ]
     },
     {
       "id": 4,
       "name": "Chaqueta",
-      "description": "Comfortable work jacket",
+      "description": "Rugged work jacket built to withstand harsh conditions while keeping your team warm and protected. Designed for outdoor and industrial use with a professional finish.",
       "mainImage": "/images/products/chaqueta/imagen1.jpg",
       "gallery": [
         "/images/products/chaqueta/imagen1.jpg"
+      ],
+      "features": [
+        "Weather-resistant outer shell",
+        "Insulated lining for warmth",
+        "Secure zippered pockets",
+        "Custom branding options available"
       ]
     }
   ]
