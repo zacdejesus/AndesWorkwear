@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <h2 className="mb-4 text-3xl font-bold text-white">
-                  <span className="text-gold">ANDES</span> Workwear
+                  <span className="text-gold">Andes</span> Workwear
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-gray-light">
                   Premium workwear and uniforms for every industry. Protecting teams with quality and reliability.

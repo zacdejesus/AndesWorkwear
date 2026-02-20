@@ -13,7 +13,7 @@ const Hero = () => {
           backgroundAttachment: 'fixed',
         }}
       >
-        <div className="absolute inset-0 bg-black/40 z-0"></div>
+        <div className="absolute inset-0 bg-black/60 z-0"></div>
         <div className="relative z-10 container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -27,17 +27,10 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"
-                    className="rounded px-8 py-4 text-base font-bold text-gray-800 duration-300 ease-in-out hover:opacity-80 shadow-lg"
+                    className="rounded-md px-12 py-5 text-lg font-bold text-gray-800 duration-300 ease-in-out hover:opacity-80 shadow-lg sm:text-xl sm:px-14 sm:py-6"
                     style={{ backgroundColor: '#B89A54' }}
                   >
                     Get in Touch
-                  </Link>
-                  <Link
-                    href="/contact"
-                    className="inline-block rounded px-8 py-4 text-base font-bold text-white bg-transparent duration-300 ease-in-out hover:opacity-90 shadow-lg"
-                    style={{ borderWidth: '2px', borderColor: '#B89A54' }}
-                  >
-                    Request Quote
                   </Link>
                 </div>
               </div>

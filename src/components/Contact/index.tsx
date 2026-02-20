@@ -93,7 +93,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="e.g. Sarah Johnson"
                     className="w-full rounded border px-4 py-3 text-sm outline-none transition focus:border-transparent focus:ring-2"
                     style={{
                       borderColor: '#E5E7EB',
@@ -114,7 +114,7 @@ const Contact = () => {
                     id="company"
                     value={formData.company}
                     onChange={handleChange}
-                    placeholder="Acme Corp"
+                    placeholder="e.g. Summit Mining Co."
                     className="w-full rounded border px-4 py-3 text-sm outline-none transition focus:border-transparent focus:ring-2"
                     style={{
                       borderColor: '#E5E7EB',
@@ -136,7 +136,7 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@company.com"
+                    placeholder="e.g. sarah@summitmining.com"
                     className="w-full rounded border px-4 py-3 text-sm outline-none transition focus:border-transparent focus:ring-2"
                     style={{
                       borderColor: '#E5E7EB',
@@ -181,7 +181,7 @@ const Contact = () => {
                   required
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell us about your project — quantity, product type, branding needs..."
+                  placeholder="e.g. We need 200 high-visibility jackets with our company logo for our mining crew. Delivery needed by March..."
                   className="w-full resize-none rounded border px-4 py-3 text-sm outline-none transition focus:border-transparent focus:ring-2"
                   style={{
                     borderColor: '#E5E7EB',

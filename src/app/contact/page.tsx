@@ -67,7 +67,7 @@ const ContactPage = () => {
                   WhatsApp
                 </p>
                 <a
-                  href="https://wa.me/yourphonenumber"
+                  href="https://wa.me/+13683384802"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-medium text-white hover:underline"
@@ -92,7 +92,7 @@ const ContactPage = () => {
                   Location
                 </p>
                 <p className="text-sm font-medium text-white">
-                  Lima, Peru
+                  Calgary, AB
                 </p>
               </div>
             </div>
