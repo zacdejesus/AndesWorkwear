@@ -8,7 +8,7 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-cover bg-center pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
         style={{
           backgroundImage: 'url(/images/hero/workteam.jpg)',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 20%',
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',
         }}
@@ -30,7 +30,7 @@ const Hero = () => {
                     className="rounded-md px-12 py-5 text-lg font-bold text-gray-800 duration-300 ease-in-out hover:opacity-80 shadow-lg sm:text-xl sm:px-14 sm:py-6"
                     style={{ backgroundColor: '#B89A54' }}
                   >
-                    Get in Touch
+                    Get a quote
                   </Link>
                 </div>
               </div>

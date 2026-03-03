@@ -6,7 +6,7 @@ const AboutSection = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#2E2E2E' }}>
-              About<br />
+              
               <span style={{ color: '#B89A54' }}>Andes Workwear</span>
             </h2>
 

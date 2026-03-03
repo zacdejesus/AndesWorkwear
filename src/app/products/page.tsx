@@ -17,7 +17,7 @@ export default function ProductsPage() {
             Our Products
           </h1>
           <p className="text-lg text-gray-200 max-w-2xl">
-            Explore our collection of premium workwear and safety equipment designed for professionals
+            Ask for custom orders. 
           </p>
         </div>
       </section>
@@ -25,10 +25,9 @@ export default function ProductsPage() {
       {/* Trust Bar */}
       <section style={{ backgroundColor: '#2E2E2E' }}>
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-8">
-          <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-3">
             {[
               { value: '9+', label: 'Years of Experience' },
-              { value: '500+', label: 'Clients Served' },
               { value: '100%', label: 'Custom Branding' },
               { value: '24/7', label: 'Dedicated Support' },
             ].map((stat, index) => (
@@ -81,10 +80,16 @@ export default function ProductsPage() {
       </section>
 
       {/* Closing CTA Section */}
-      <section style={{ backgroundColor: '#2E2E2E' }} className="py-16 md:py-24">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-8">
+      <section
+        className="relative py-16 md:py-24 bg-cover bg-center bg-fixed"
+        style={{
+          backgroundImage: 'url(/images/products/imagen3.jpeg)',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-8">
           <h2 className="mb-4 text-3xl font-bold text-white md:text-5xl">
-            Ready to equip your team?
+            Let’s work together.
           </h2>
           <p
             className="mb-10 text-lg md:text-xl"
