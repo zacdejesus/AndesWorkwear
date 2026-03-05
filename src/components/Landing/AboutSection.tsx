@@ -23,13 +23,12 @@ const AboutSection = () => {
 
           {/* Right Logo */}
           <div className="flex items-center justify-center">
-            <div className="w-full max-w-sm border-4 p-8 rounded-lg" style={{ borderColor: '#B89A54', backgroundColor: '#F2F2F2' }}>
-              <div className="text-center">
-                <div className="text-6xl font-bold mb-3" style={{ color: '#B89A54' }}>▲</div>
-                <h3 className="text-4xl font-bold mb-1" style={{ color: '#2E2E2E' }}>ANDES</h3>
-                <p className="tracking-widest text-sm" style={{ color: '#6E6E6E' }}>WORKWEAR</p>
-              </div>
-            </div>
+                <img
+                  src="/images/hero/logoAndes.png"
+                  alt="Andes Workwear Logo"
+                  className="h-64 w-auto object-contain rounded-full border-4"
+                  style={{ borderColor: '#B89A54' }}
+                />
           </div>
         </div>
       </div>

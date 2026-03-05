@@ -4,9 +4,11 @@
       "id": 1,
       "name": "Chaleco",
       "description": "High-visibility safety vest engineered for demanding work environments. Built with durable, breathable fabric to keep workers safe and comfortable throughout long shifts.",
-      "mainImage": "/images/products/chaleco/imagen.jpg",
+      "mainImage": "/images/products/chaleco/DSC01772.jpg",
       "gallery": [
-        "/images/products/chaleco/imagen.jpg"
+        "/images/products/chaleco/DSC01772.jpg",
+        "/images/products/chaleco/DSC01777.jpg",
+        "/images/products/chaleco/DSC01780.jpg"
       ],
       "features": [
         "High-visibility reflective strips",
@@ -21,7 +23,9 @@
       "description": "Professional work polo shirt combining comfort with a polished look. Ideal for teams that need a clean, uniform appearance without sacrificing mobility.",
       "mainImage": "/images/products/polo/imagen1.jpg",
       "gallery": [
-        "/images/products/polo/imagen1.jpg"
+        "/images/products/polo/imagen1.jpg",
+        "/images/products/polo/DSC01810.jpg",
+        "/images/products/polo/polo%20editado.png"
       ],
       "features": [
         "Soft, moisture-wicking fabric",
@@ -36,7 +40,9 @@
       "description": "Heavy-duty half-body overall designed for maximum protection and comfort. Perfect for industrial environments where workers need full coverage and freedom of movement.",
       "mainImage": "/images/products/cuerpo-medio-overol/imagen1.png",
       "gallery": [
-        "/images/products/cuerpo-medio-overol/imagen1.png"
+        "/images/products/cuerpo-medio-overol/imagen1.png",
+        "/images/products/cuerpo-medio-overol/DSC01910.jpg",
+        "/images/products/cuerpo-medio-overol/DSC01912-editada.jpg"
       ],
       "features": [
         "Reinforced knee and chest panels",
@@ -51,7 +57,10 @@
       "description": "Rugged work jacket built to withstand harsh conditions while keeping your team warm and protected. Designed for outdoor and industrial use with a professional finish.",
       "mainImage": "/images/products/chaqueta/imagen1.jpg",
       "gallery": [
-        "/images/products/chaqueta/imagen1.jpg"
+        "/images/products/chaqueta/imagen1.jpg",
+        "/images/products/chaqueta/DSC01825.jpg",
+        "/images/products/chaqueta/DSC01827-3-%20editada.jpg",
+        "/images/products/chaqueta/DSC01830-3-editada.jpg"
       ],
       "features": [
         "Weather-resistant outer shell",

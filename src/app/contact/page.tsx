@@ -13,18 +13,18 @@ const ContactPage = () => {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section
-        className="relative z-10 overflow-hidden px-4 py-20 sm:px-8 md:py-32"
+        className="relative z-10 overflow-hidden px-4 pt-32 pb-16 sm:px-8 md:pt-40 md:pb-24"
         style={{ backgroundColor: '#1d2430' }}
       >
         <div className="mx-auto max-w-6xl">
           <h1
-            className="mb-4 text-4xl font-bold sm:text-5xl md:text-6xl"
+            className="mb-4 text-3xl font-bold sm:text-5xl md:text-6xl"
             style={{ color: '#B89A54' }}
           >
             Get in Touch
           </h1>
           <p className="text-lg max-w-2xl" style={{ color: '#F2F2F2' }}>
-            Ready to equip your team? Contact us for custom quotes, bulk orders, and
+            Contact us for custom quotes, bulk orders, and
             branding solutions tailored to your business.
           </p>
         </div>
@@ -47,7 +47,7 @@ const ContactPage = () => {
                 <p className="text-xs uppercase tracking-wide" style={{ color: '#B89A54' }}>
                   Email
                 </p>
-                <a href="mailto:info@andesworkwear.com" className="text-sm font-medium text-white hover:underline">
+                <a href="mailto:info@andesworkwear.com" className="text-sm font-medium text-white hover:underline break-all">
                   info@andesworkwear.com
                 </a>
               </div>

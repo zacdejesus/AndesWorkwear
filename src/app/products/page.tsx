@@ -6,12 +6,12 @@ export default function ProductsPage() {
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section
-        className="relative z-10 overflow-hidden px-4 py-20 sm:px-8 md:py-32"
+        className="relative z-10 overflow-hidden px-4 pt-32 pb-16 sm:px-8 md:pt-40 md:pb-24"
         style={{ backgroundColor: '#1d2430' }}
       >
         <div className="mx-auto max-w-6xl relative z-10">
           <h1
-            className="mb-4 text-4xl font-bold sm:text-5xl md:text-6xl"
+            className="mb-4 text-3xl font-bold sm:text-5xl md:text-6xl"
             style={{ color: '#B89A54' }}
           >
             Our Products
@@ -81,14 +81,14 @@ export default function ProductsPage() {
 
       {/* Closing CTA Section */}
       <section
-        className="relative py-16 md:py-24 bg-cover bg-center bg-fixed"
+        className="relative py-16 md:py-24 bg-cover bg-center md:bg-fixed"
         style={{
           backgroundImage: 'url(/images/products/imagen3.jpeg)',
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-8">
-          <h2 className="mb-4 text-3xl font-bold text-white md:text-5xl">
+          <h2 className="mb-4 text-2xl font-bold text-white sm:text-3xl md:text-5xl">
             Let’s work together.
           </h2>
           <p
