@@ -85,11 +85,13 @@ const Contact = () => {
                     className="mb-2 block text-sm font-medium"
                     style={{ color: '#2E2E2E' }}
                   >
-                    Your Name *
+                    Your Name
                   </label>
                   <input
                     type="text"
                     id="name"
+                    name="fullname"
+                    autoComplete="given-name"
                     required
                     value={formData.name}
                     onChange={handleChange}
@@ -128,7 +130,7 @@ const Contact = () => {
                     className="mb-2 block text-sm font-medium"
                     style={{ color: '#2E2E2E' }}
                   >
-                    Email Address *
+                    Email Address
                   </label>
                   <input
                     type="email"
@@ -173,7 +175,7 @@ const Contact = () => {
                   className="mb-2 block text-sm font-medium"
                   style={{ color: '#2E2E2E' }}
                 >
-                  Your Message *
+                  Your Message
                 </label>
                 <textarea
                   id="message"
