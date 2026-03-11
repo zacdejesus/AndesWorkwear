@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "name": "Chaleco",
-      "description": "High-visibility safety vest engineered for demanding work environments. Built with durable, breathable fabric to keep workers safe and comfortable throughout long shifts.",
+      "name": "High Visibility Drill Safety Vest",
+      "description": "Our Class 2 Hi-Vis Safety Vest combines durability, comfort, and certified visibility. Made from heavy-duty drill fabric, it offers excellent resistance to daily wear while maintaining a professional appearance.",
       "mainImage": "/images/products/chaleco/DSC01772.jpg",
       "gallery": [
         "/images/products/chaleco/DSC01772.jpg",
@@ -11,33 +11,38 @@
         "/images/products/chaleco/DSC01780.jpg"
       ],
       "features": [
-        "High-visibility reflective strips",
-        "Breathable and lightweight fabric",
-        "Multiple utility pockets",
-        "Available in custom colors and branding"
+        "ANSI / ISEA 107-20 Class 2 high-visibility compliance.",
+        "2-inch reflective tape for enhanced visibility.",
+        "Durable drill fabric for long-lasting use.",
+        "Front zipper closure for easy on and off.",
+        "Multiple pockets for practicality and efficiency.",
+        "Available sizes: S – M – L – XL – XXL."
       ]
     },
     {
       "id": 2,
-      "name": "Polo",
-      "description": "Professional work polo shirt combining comfort with a polished look. Ideal for teams that need a clean, uniform appearance without sacrificing mobility.",
+
+      "name": "Long Sleeve Work T-Shirt 100% Cotton",
+      "description": "Designed for demanding work environments, our long sleeve work shirt is made from 100% high-quality cotton, offering the perfect balance between durability, comfort, and breathability.",
       "mainImage": "/images/products/polo/imagen1.jpg",
       "gallery": [
         "/images/products/polo/imagen1.jpg",
         "/images/products/polo/DSC01810.jpg",
-        "/images/products/polo/polo%20editado.png"
+        "/images/products/polo/polo editado.png"
       ],
       "features": [
-        "Soft, moisture-wicking fabric",
-        "Reinforced stitching for durability",
-        "Custom embroidery and logo placement",
-        "Available in multiple sizes and colors"
+        "Made from 100% cotton for natural comfort and breathability.",
+        "Highly durable and comfortable fabric.",
+        "Ribbed cuffs for better fit and practicality.",
+        "Long sleeve design for added protection.",
+        "Comfortable fit for extended wear.",
+        "Available sizes: S – M – L – XL – XXL."
       ]
     },
     {
       "id": 3,
-      "name": "Cuerpo Medio Overol",
-      "description": "Heavy-duty half-body overall designed for maximum protection and comfort. Perfect for industrial environments where workers need full coverage and freedom of movement.",
+      "name": "High Visibility Coverall",
+      "description": "Designed for heavy-duty work environments, this high visibility coverall is manufactured using durable drill fabric, providing excellent resistance to abrasion and daily wear while ensuring longlasting performance.",
       "mainImage": "/images/products/cuerpo-medio-overol/imagen1.png",
       "gallery": [
         "/images/products/cuerpo-medio-overol/imagen1.png",
@@ -45,28 +50,52 @@
         "/images/products/cuerpo-medio-overol/DSC01912-editada.jpg"
       ],
       "features": [
-        "Reinforced knee and chest panels",
-        "Adjustable waist and shoulder straps",
-        "Industrial-grade fabric blend",
-        "Meets workplace safety standards"
+        "Meets ANSI/ISEA 107 - 20 Class 1.",
+        "2-inch reflective tape for enhanced visibility.",
+        "Full-body coverage for added protection.",
+        "Functional pockets for tools and accessories.",
+        "Suitable for construction, industrial, and outdoor work.",
+        "Available sizes: S – M – L – XL – XXL."
       ]
     },
     {
       "id": 4,
-      "name": "Chaqueta",
-      "description": "Rugged work jacket built to withstand harsh conditions while keeping your team warm and protected. Designed for outdoor and industrial use with a professional finish.",
+      "name": "High Visibility Waterproof Jacket",
+      "description": "Designed for demanding outdoor work environments, our jacket delivers reliable protection, visibility, and comfort in all weather conditions. It is made from water-resistant and insulated fabric. It features a warm polar fleece lining, offering thermal insulation and comfort in cold and windy conditions.",
       "mainImage": "/images/products/chaqueta/imagen1.jpg",
       "gallery": [
         "/images/products/chaqueta/imagen1.jpg",
         "/images/products/chaqueta/DSC01825.jpg",
-        "/images/products/chaqueta/DSC01827-3-%20editada.jpg",
+        "/images/products/chaqueta/DSC01827-3- editada.jpg",
         "/images/products/chaqueta/DSC01830-3-editada.jpg"
       ],
       "features": [
-        "Weather-resistant outer shell",
-        "Insulated lining for warmth",
-        "Secure zippered pockets",
-        "Custom branding options available"
+        "Meets ANSI/ISEA 107 - 20 Class 1.",
+        "Waterproof and insulated.",
+        "Polar fleece lining for thermal comfort.",
+        "2-inch reflective tape for enhanced visibility.",
+        "Functional 3 front zipper pockets.",
+        "Removable hood for added versatility.",
+        "Available sizes: S – M – L – XL – XXL."
+      ]
+    },
+        {
+      "id": 5,
+      "name": "High Visibility Drill Safety Vest",
+      "description": "Our Class 2 Hi-Vis Safety Vest combines durability, comfort, and certified visibility. Made from heavy-duty drill fabric, it offers excellent resistance to daily wear while maintaining a professional appearance.",
+      "mainImage": "/images/products/chaleco-amarillo/DSC01788888.jpg",
+      
+      "gallery": [
+        "/images/products/chaleco-amarillo/DSC01788888.jpg"
+
+      ],
+      "features": [
+        "ANSI / ISEA 107-20 Class 2 high-visibility compliance.",
+        "2-inch reflective tape for enhanced visibility.",
+        "Durable drill fabric for long-lasting use.",
+        "Front zipper closure for easy on and off.",
+        "Multiple pockets for practicality and efficiency.",
+        "Available sizes: S – M – L – XL – XXL."
       ]
     }
   ]
