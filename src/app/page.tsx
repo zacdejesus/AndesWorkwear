@@ -1,8 +1,9 @@
 import { Metadata } from "next";
+import Hero from "@/components/Hero";
 import AboutSection from "@/components/Landing/AboutSection";
-import OurValueSection from "@/components/Landing/OurValueSection";
 import WhyChooseUsSection from "@/components/Landing/WhyChooseUsSection";
 import IndustriesSection from "@/components/Landing/IndustriesSection";
+import CTASection from "@/components/Landing/CTASection";
 
 export const metadata: Metadata = {
   title: "Andes Workwear - Premium Workwear & Uniforms",
@@ -12,10 +13,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Hero />
       <AboutSection />
-      <OurValueSection />
       <WhyChooseUsSection />
       <IndustriesSection />
+      <CTASection />
     </>
   );
 }
